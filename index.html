@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./index.js">
+</head>
+
+<body>
+    <section>
+        <h1 class="welcome">Welcome!</h1>
+        <div class="panel">
+            <img class="icon" src="./img/icon.png" alt="img">
+            <h1>Hato1125</h1>
+            <p>
+                高校一年生の鳩。<br>
+                普段は、C#とDxLibで遊んでます。<br>
+            </p>
+            <div class="sns-box">
+                <div class="button" id="twitter">
+                    <img class="tw-icon" src="./img/twitter.png" alt="img">
+                </div>
+
+                <div class="button" id="github">
+                    <img class="git-icon" src="./img/github.png" alt="img">
+                </div>
+
+                <div class="button" id="discord">
+                    <img class="disco-icon" src="./img/discord.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById("twitter").onclick = function () {
+            location.href = 'https://twitter.com/mepurunijiiro';
+        }
+
+        document.getElementById("github").onclick = function () {
+            location.href = 'https://github.com/Hato1125';
+        }
+    </script>
+</body>
+
+</html>
